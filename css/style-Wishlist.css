@@ -1,0 +1,170 @@
+.header {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 15px;
+    object-fit: cover;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-icon {
+    display: flex;
+    right: 0;
+    margin-top: 10px;
+}
+
+.menu,
+
+.menu-item {
+    list-style: none;
+    margin: 0 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    margin-bottom: 10px;
+    margin-right: 300px;
+    margin-top: 10px;
+}
+
+.Logo img {
+    width: 150px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.ft-menu {
+    padding: 0;
+}
+
+.footer {
+    border-top: 1px solid #F6F6F6;
+    border-bottom: 1px solid #F6F6F6;
+}
+
+.footer-wrap {
+    display: flex;
+    color: #000000;
+    font-size: small;
+}
+
+.ft-menu-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.ft-menu-item {
+    margin: 10px 0px;
+    list-style: none;
+    padding: 0;
+}
+
+.title-bar {
+    font-size: medium;
+    text-decoration: none;
+}
+
+.icons-footer i {
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.elementor-widget img {
+    height: 24px;
+}
+
+.elementor-widget {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    margin-top: 150px;
+}
+.wishlist {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.naruto {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 150px;
+    color: #000;
+    margin-bottom: 80px;
+    width: 100%;
+} 
+.sakura {
+    width: 100%;
+}
+.left {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin-top: 50px;
+    justify-content: space-between;
+}  
+.share-icon {
+    display: flex;
+}
+.share-icon h6{
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.share-icon i{
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 18px;
+}
+.link {
+    align-items: center;
+    text-align: center;
+}
+.link h6{
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.right {
+    display: flex;
+    margin-left: 250px;
+}
+.http {
+    width: 500px;
+    border: 1px solid #000;
+    border-radius: 40px;
+    align-items: center;
+    height: 60px;
+}
+.wpbingosite {
+    margin-top: 15px;
+    margin-left: 10px;
+}

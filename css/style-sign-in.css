@@ -1,0 +1,157 @@
+.login-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none; /* Hidden by default */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure the login overlay is on top */
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: fixed;
+}
+
+.login-overlay:target {
+    display: flex; /* Display when targeted */
+    opacity: 1;
+}
+
+.login-content {
+    background-color: #fff;
+    padding: 20px;
+    height: 100vh;
+    width: 500px;
+    border: 1px solid black;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+}
+
+.login-img img{
+    height: 560px;
+    width: 575px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.login-inut-tab{
+    margin-top: 50px;
+    margin-left: 210px;
+}
+
+.login {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+}
+
+.login-img img {
+    height: 560px;
+    width: 570px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.login-form {
+    width: 725px;
+}
+
+.sign-in {
+
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.sign-in-item {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #ad9ea4;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+.login-input p {
+    margin-right: 245px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.login-input .mail {
+    margin-right: 265px;
+}
+
+.login-input-tab .login-text {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #ad9ea4;
+}
+
+.sign-in-btn {
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.sign-in-button {
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 13px;
+}
+
+.sign-in-button:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.forgot {
+    color: #000;
+}
+
+.forgot-p {
+    text-decoration: none;
+    color: #000;
+}
+
+.forgot-p:hover {
+    color: #ad9ea4;
+}
+
+.register {
+    text-decoration: none;
+    margin-left: 5px;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}

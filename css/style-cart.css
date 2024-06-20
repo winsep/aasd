@@ -1,0 +1,419 @@
+.header {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 15px;
+    object-fit: cover;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-icon {
+    display: flex;
+    right: 0;
+    margin-top: 10px;
+}
+
+.menu,
+
+.menu-item {
+    list-style: none;
+    margin: 0 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    margin-bottom: 10px;
+    margin-right: 300px;
+    margin-top: 10px;
+}
+
+.Logo img {
+    width: 150px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.ft-menu {
+    padding: 0;
+}
+
+.footer {
+    border-top: 1px solid #F6F6F6;
+    border-bottom: 1px solid #F6F6F6;
+}
+
+.footer-wrap {
+    display: flex;
+    color: #000000;
+    font-size: small;
+}
+
+.ft-menu-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.ft-menu-item {
+    margin: 10px 0px;
+    list-style: none;
+    padding: 0;
+}
+
+.title-bar {
+    font-size: medium;
+    text-decoration: none;
+}
+
+.icons-footer i {
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.elementor-widget img {
+    height: 24px;
+}
+
+.elementor-widget {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.tracking {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.tracking a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 40px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.cart{
+    border-bottom: 1px solid #000000;
+    margin-top: 10px;
+}
+.poroduct {
+    display: flex;
+    
+  }
+  .poroduct-img img {
+    width: 100px;
+    height: 153px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .xyz {
+    width: 950px;
+  }
+  .prod {
+    display: flex;
+  }
+.Product {
+    width: 500px;
+    height: 60px;
+    border: 1px solid #868686;
+}
+.prod h6{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.Quantity {
+    width: 160px;
+    height: 60px;
+    border: 1px solid #868686;
+}
+.Subtotal {
+    width: 100px;
+    height: 60px;
+    border: 1px solid #868686;
+}
+.anttt{
+    width: 70px;
+    height: 60px;
+    border: 1px solid #868686; 
+}
+.poroduct-txt{
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .monney {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .emxinh {
+    width: 160px;
+    height: 180px;
+    border: 1px solid #868686;
+  }
+  .nga {
+    display: flex;
+    margin-top: 40px;
+    padding-top: 10px;
+  }
+  .sign{
+    border: 1px solid #000;
+    color: #000;
+    margin-top: 20px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .dat{
+    border: 1px solid #000;
+    color: #000;
+    margin-top: 20px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .trash {
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 60px;
+    
+  }
+  .oawef {
+    display: flex;
+    width: 500px;
+    height: 180px;
+    border: 1px solid #868686;
+  }
+  .dung {
+    width: 100px;
+    height: 180px;
+    border: 1px solid #868686;
+  }
+  .binh {
+    width: 70px;
+    height: 180px;
+    border: 1px solid #868686;
+  }
+  .gia {
+    margin-top: 10px;
+  }
+.tuan {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.sign-in-button {
+    margin-right: 10px;
+    background-color: rgb(1, 1, 1);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(5, 5, 5);
+    font-size: 13px;
+    margin-left: 150px;
+    width: 200px;
+
+}
+
+.sign-in-button:hover {
+    background-color: rgb(245, 245, 245);
+    color: rgb(4, 4, 4);
+    transition: all 0.3s ease-in-out;
+}
+.APPLY-in-button {
+    margin-right: 10px;
+    background-color: rgb(5, 5, 5);
+    color: rgb(243, 238, 238);
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 13px;
+    width: 160px;
+    margin-left: 10px;
+}
+
+.APPLY-in-button:hover {
+    background-color: rgb(247, 243, 243);
+    color: rgb(7, 7, 7);
+    transition: all 0.3s ease-in-out;
+}
+.abc{
+    display: flex;
+    margin-top: 20px;
+}
+.sign-in-btn {
+    margin-right: 10px;
+    display: flex;
+    margin-bottom: 400px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.naruto {
+    display: flex;
+}
+.freeship {
+    width: 445px;
+    height: 130px;
+    background-color: #F7F4EF;
+    margin-bottom: 40px;
+  }
+  .spend {
+    margin-left: 40px;
+  }
+  .shipp {
+    display: flex;
+    margin-left: 40px;
+  }
+  .lightnigh {
+    margin-top: 20px;
+  }
+  .SHIPPING {
+    margin-top: 20px;
+  }
+  .xyz {
+    width: 850px;
+  }
+  .anhlong {
+    width: 350px;
+    background: linear-gradient(to right, black 14%, gray 86%);
+    height: 3.5px;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .vitjngu {
+    width: 445px;
+    height: 450px;
+    background-color: #F7F7F7;
+  }
+  .totals {
+    width: 380px;
+    height: 80px;
+    border-bottom: 1px solid #000000;
+    margin-left: 35px;
+  }
+  .loan {
+    margin-top: 30px;
+    padding-top: 40px;
+  }
+  .totals h6{
+    font-size: 20px;
+  }
+  .subtotal {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 35px;
+  }
+  .tien {
+    margin-left: 130px;
+  }
+  .rate {
+    display: flex;
+    margin-left: 35px;
+  }
+  .rate i{
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+  .nothing{
+    width: 190px;
+    height: 27px;
+  }
+  .flat {
+    display: flex;
+    margin-top: 30px;
+  }
+  .sipping {
+    display: flex;
+    margin-top: 10px;
+  }
+  .nanami {
+    width: 185px;
+    height: 75px;
+    margin-left: 35px;
+  }
+  .vietnam {
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+  .change a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: small;
+    border-bottom: 1px solid #000000;
+  }
+  .total {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 20px;
+  }
+  .asaer {
+    width: 185px;
+  }
+  .dola {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .PROCEED-in-button {
+    margin-right: 10px;
+    background-color: rgb(5, 5, 5);
+    color: rgb(243, 238, 238);
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 13px;
+    width: 380px;
+    height: 50px; 
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.PROCEED-in-button:hover {
+    background-color: rgb(247, 243, 243);
+    color: rgb(7, 7, 7);
+    transition: all 0.3s ease-in-out;
+}
+.PROCEED {
+
+}
